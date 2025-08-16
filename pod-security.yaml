@@ -1,0 +1,8 @@
+apiVersion: pod-security.admission.config.k8s.io/v1
+kind: PodSecurity
+metadata:
+  name: restricted-pss
+  namespace: secure-app
+spec:
+  enforce: "restricted"
+  enforce-version: "latest"

@@ -8,6 +8,7 @@ This project is a **secure Kubernetes environment** that applies multiple securi
 
 - **Namespaces**
   - `secure-app`: Contains all secure application resources.
+  - `dev`: Development namespace (currently unused).
 
 - **Pod Security Standards (Restricted)**
   - Ensures containers do **not run as root**.
